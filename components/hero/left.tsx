@@ -11,8 +11,10 @@ export function HeroLeft() {
       </div>
       <p className="mt-4">I build production-ready web and mobile applications, handling UI, backend APIs, databases, and deployment end to end. From Philippines.</p>
       <div className="my-4 flex gap-6">
-        <Link href={"/#projects"} className="text-sm underline">View Projects</Link>
+        {/* <Link href={"/#projects"} className="text-sm underline">View Projects</Link> */}
         <Link href={"/JejomarBaldoza_CV012026-a.pdf"} target="_blank" className="text-sm underline">Download CV</Link>
+        <Link href={"https://github.com/jjmrbldz"} target="_blank" className="text-sm underline">Github</Link>
+        <Link href={"https://www.linkedin.com/in/jjmrbldz/"} target="_blank" className="text-sm underline">LinkedIn</Link>
         <Link href={"https://www.stackhaven.tech/"} target="_blank" className="text-sm underline">My team</Link>
       </div>
       <div className="flex flex-wrap gap-1 -ml-1">
