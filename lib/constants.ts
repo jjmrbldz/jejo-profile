@@ -124,3 +124,6 @@ export const featuredProjects = [
     link: "https://github.com/jjmrbldz/avon-user-nextjs",
   },
 ]
+
+export const CV_LINK = "/Jejomar_Baldoza_CV_2026.pdf";
+export const RESUME_LINK = "/Jejomar_Baldoza_Resume_2026.pdf";
