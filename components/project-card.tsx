@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "./ui/badge";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Props{
   className?: string;
@@ -12,7 +13,15 @@ interface Props{
 export function ProjectCard({className = "", item}: Props) {
 
   return (
-    <Card className={cn(className, "")}>
+    <Card className={cn(className, "relative pt-0 overflow-hidden")}>
+      {/* <div className="absolute inset-0 z-30 aspect-video bg-black/35" /> */}
+      <Image
+      width={1920}
+      height={1080}
+        src={item.srcSet[0] ?? "https://avatar.vercel.sh/shadcn1"}
+        alt={item.description}
+        className="relative z-20 aspect-video w-full object-cover"
+      />
       <CardHeader>
         <CardTitle>
           <Link href={item.link} target="_blank" className="hover:underline">

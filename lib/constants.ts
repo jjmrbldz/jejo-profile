@@ -98,6 +98,7 @@ export const featuredProjects = [
     title: "SplenDoor Care App",
     description: "A full-stack in-home care management system with mobile apps and an admin dashboard, enabling care requests, caregiver scheduling, secure client records, invoicing, and online payments—all in one streamlined platform.",
     srcSet: [
+      "/images/splendoor/sihc-thumb.jpg", 
       "/videos/splendoor/0Client-Registration-Login.mp4", 
       "/videos/splendoor/1Review.mp4", 
       "/videos/splendoor/2Concerning Care Setup.mp4", 
@@ -112,16 +113,30 @@ export const featuredProjects = [
   {
     title: "Tazza 365",
     description: "Tazza365 is a community forum for betting systems where users can post, review, and discuss betting websites across categorized boards, with administrator-posted scam alerts for community safety.",
-    srcSet: [],
+    srcSet: ["/images/tazza/tazza-home.png"],
     techStack: ["ReactJS", "NextJS", "ShadCN", "Mantine", "TypeScript", "Drizzle ORM", "MySQL"],
     link: "https://tazza365.com/",
   },
   {
     title: "Avon Pateros",
     description: "Avon Pateros with AI is an e-commerce website enhanced with AI-powered product search and recommendations, developed for a college thesis to improve product discovery and user experience.",
-    srcSet: [],
+    srcSet: ["/images/avon/avon-thumb.jpg"],
     techStack: ["NextJS", "Tailwind CSS", "Mantine", "TypeScript", "MySQL"],
     link: "https://github.com/jjmrbldz/avon-user-nextjs",
+  },
+  {
+    title: "Nipro Philippines Website",
+    description: "Corporate and SEO-optimized website development for Nipro Medical Philippines Corp., featuring structured product listings and job posting pages. Built with a clean, responsive layout focused on performance, usability, and maintainability using standard WordPress best practices.",
+    srcSet: ["/images/nipro/nmpc-thumb.png"],
+    techStack: ["WordPress", "HTML", "SCSS", "jQuery", "Gutenberg"],
+    link: "https://nipro.com.ph/",
+  },
+  {
+    title: "Splendoor In-Home-Care Website",
+    description: "Healthcare-focused SEO-optimized website for a US-based in-home care provider, designed to present services clearly while maintaining performance, responsive design, and structured content. Implemented with WordPress and optimized for user experience and scalability.",
+    srcSet: ["/images/splendoor/sihc-thumb2.png"],
+    techStack: ["WordPress", "HTML", "SCSS", "jQuery", "Gutenberg"],
+    link: "https://splendoorcare.com/",
   },
 ]
 
